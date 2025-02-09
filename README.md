@@ -1,6 +1,6 @@
 # AEV-PLIG
 
-AEV-PLIG is a GNN-based scoring function that predicts the binding affinity of a bound protein-ligand complex given its 3D structure. 
+AEV-PLIG is a GNN-based scoring function that predicts the binding affinity of a bound protein-ligand complex given its 3D structure. The paper is at Nature's Communications Chemistry, at [https://doi.org/10.1038/s42004-025-01428-y](Narrowing the gap between machine learning scoring functions and free energy perturbation using augmented data).
 
 AEV-PLIG was first published in [How to make machine learning scoring functions competitive with FEP](https://chemrxiv.org/engage/chemrxiv/article-details/6675a38d5101a2ffa8274f62), and received the [people's poster prize at the 7th AI in Chemistry Symposium](https://www.stats.ox.ac.uk/news/isak-valsson-wins-poster-prize). In the paper we benchmark AEV-PLIG on a wide range of benchmarks, including CASF-2016, our new out-of-distribution benchmark OOD Test, and a test set used for free energy perturbation (FEP) calculations, and highlight competitive performance accross the board. Moreover, we demonstrate how leveraging augmented data (generated using template-based modelling or molecular docking) can significantly improve binding affinity prediction correlation and ranking on the FEP benchmark (PCC and Kendall’s increases from 0.41 and 0.26, to 0.59 and 0.42), closing the performance gap with FEP calculations while being 400,000 times faster.
 
